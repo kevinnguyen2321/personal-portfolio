@@ -1,0 +1,15 @@
+.projects-wrapper {
+  /* border: solid pink; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.project-card {
+  border: solid black;
+  width: 30%;
+}
+
+.project-card img {
+  width: 100%;
+}

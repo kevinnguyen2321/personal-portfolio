@@ -1,0 +1,22 @@
+.about-me-wrapper {
+  border: solid black;
+  display: flex;
+  margin-bottom: 180px;
+}
+
+.about-me-content-wrapper {
+  border: solid yellow;
+  display: flex;
+}
+
+.about-me-content-wrapper img {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.about-me-text-wrapper {
+  border: solid green;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  width: 45%;
+}
