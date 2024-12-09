@@ -1,11 +1,10 @@
 .projects-wrapper {
-  /* border: solid pink; */
   display: flex;
   flex-wrap: wrap;
   gap: 35px;
-}
+} 
 
-.project-card {
+ .project-card {
   border: solid black;
   width: 30%;
 }
@@ -13,3 +12,28 @@
 .project-card img {
   width: 100%;
 }
+
+.project-card-content-wrapper {
+  border: solid blue;
+  display: flex;
+}
+
+.project-card-text-wrapper {
+  border: solid yellow;
+}
+
+.project-card-icons {
+  border: solid pink;
+}
+
+.github-img {
+  border: solid black;
+}
+
+.link-img {
+  margin-left: 12px;
+}
+
+.project-card-icons img {
+  width: 9%;
+} 

@@ -1,0 +1,22 @@
+.contact-wrapper {
+  background-color: white;
+  border: solid black;
+  color: black;
+}
+
+.contact-wrapper img {
+  width: 20%;
+}
+
+.linkedin-wrapper {
+  border: solid black;
+  display: flex;
+}
+
+.email-icon {
+  width: 3% !important;
+}
+
+.github-icon {
+  width: 3% !important;
+}

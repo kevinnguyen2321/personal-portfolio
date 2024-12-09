@@ -5,7 +5,9 @@ export const AboutMe = () => {
   return (
     <div className="about-me-wrapper">
       <div className="about-me-content-wrapper">
-        <img src={Kevin} alt="Kevin" />
+        <div className="image-wrapper">
+          <img src={Kevin} alt="Kevin" />
+        </div>
 
         <div className="about-me-text-wrapper">
           <h2>About me</h2>
