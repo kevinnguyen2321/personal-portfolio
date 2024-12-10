@@ -1,17 +1,15 @@
 .about-me-wrapper {
-  border-bottom: 1px solid black;
   display: flex;
-  margin-bottom: 100px;
 }
 
 .about-me-content-wrapper {
-  /* border: solid yellow; */
   display: flex;
 }
 
 .image-wrapper {
-  margin-top: 42px;
+  margin-top: 70px;
   margin-left: 120px;
+  position: relative;
 }
 
 .about-me-content-wrapper img {
@@ -19,6 +17,16 @@
   height: 300px;
   margin-top: 40px;
   border-radius: 15px;
+}
+
+.name-overlay {
+  position: absolute;
+  bottom: 140px; /* Adjust where you want the text to appear */
+  left: 122px;
+  color: white; /* White text color for contrast */
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow to the text for better visibility */
 }
 
 .about-me-text-wrapper {

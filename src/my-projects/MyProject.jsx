@@ -9,14 +9,18 @@ import LinkIcon from '../assets/link.png';
 export const MyProjects = () => {
   return (
     <>
-      <h2>My Projects</h2>
+      <h2 className="projects-header-text">My Projects</h2>
       <div className="projects-wrapper">
         <div className="project-card">
           <img src={ConcertTrack} alt="concertTrack" />
           <div className="project-card-content-wrapper">
             <div className="project-card-text-wrapper">
               <h3>concertTrack</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>
+                ConcertTrack was built using React.js and vanilla CSS and is an
+                app that helps users track upcoming concerts and stay connected
+                with fellow music lovers.{' '}
+              </p>
             </div>
 
             <div className="project-card-icons">
@@ -39,7 +43,11 @@ export const MyProjects = () => {
           <div className="project-card-content-wrapper">
             <div className="project-card-text-wrapper">
               <h3>Cv-Builder</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>
+                Built with React.js, this front-end project allows users to
+                easily create a custom resume by entering their information into
+                form inputs.
+              </p>
             </div>
 
             <div className="project-card-icons">
@@ -70,7 +78,11 @@ export const MyProjects = () => {
           <div className="project-card-content-wrapper">
             <div className="project-card-text-wrapper">
               <h3>BattleShip</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>
+                A Battleship game built with vanilla JavaScript and CSS, bundled
+                with Webpack. Developed using Test-Driven Development (TDD) and
+                tested with Jest.
+              </p>
             </div>
 
             <div className="project-card-icons">
@@ -101,7 +113,13 @@ export const MyProjects = () => {
           <div className="project-card-content-wrapper">
             <div className="project-card-text-wrapper">
               <h3>Weather App</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+              <p>
+                This weather app allows users to check real-time weather
+                forecasts for any location by fetching data from the WeatherAPI.
+                Built using vanilla JavaScript and CSS, the app features a
+                simple, intuitive interface that displays current weather
+                conditions.
+              </p>
             </div>
 
             <div className="project-card-icons">

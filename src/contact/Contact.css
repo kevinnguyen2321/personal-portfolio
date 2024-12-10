@@ -1,22 +1,52 @@
 .contact-wrapper {
-  background-color: white;
+  background-color: black;
   border: solid black;
-  color: black;
+  color: whitesmoke;
+  text-align: center;
 }
 
 .contact-wrapper img {
   width: 20%;
 }
 
-.linkedin-wrapper {
-  border: solid black;
+.icons-wrapper {
   display: flex;
+  justify-content: center;
+}
+
+.contact-header-text {
+  text-align: center;
+}
+
+.email-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.email-text {
+  /* border: solid white; */
+  margin-top: 40px;
 }
 
 .email-icon {
-  width: 3% !important;
+  width: 22% !important;
+}
+
+.github-icon,
+.linked-icon {
+  transition: transform 0.2s ease-in-out;
 }
 
 .github-icon {
-  width: 3% !important;
+  width: 40% !important;
+}
+
+.github-icon:hover,
+.linked-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.linked-icon {
+  width: 40% !important;
+  margin-bottom: 5px;
 }

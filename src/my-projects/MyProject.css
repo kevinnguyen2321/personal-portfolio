@@ -2,32 +2,46 @@
   display: flex;
   flex-wrap: wrap;
   gap: 35px;
-} 
+  margin-bottom: 150px;
+}
 
- .project-card {
-  border: solid black;
+.projects-header-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
   width: 30%;
+  margin-left: 20px;
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  cursor: pointer;
+  transform: translateY(-12px);
 }
 
 .project-card img {
   width: 100%;
+  border-radius: 15px;
 }
 
 .project-card-content-wrapper {
-  border: solid blue;
   display: flex;
 }
 
 .project-card-text-wrapper {
-  border: solid yellow;
+  width: 85%;
 }
 
 .project-card-icons {
-  border: solid pink;
-}
-
-.github-img {
-  border: solid black;
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 50%;
 }
 
 .link-img {
@@ -36,4 +50,4 @@
 
 .project-card-icons img {
   width: 9%;
-} 
+}

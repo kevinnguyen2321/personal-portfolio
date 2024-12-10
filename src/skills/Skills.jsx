@@ -8,6 +8,9 @@ import {
 } from 'react-icons/fa';
 import { SiJest, SiWebpack } from 'react-icons/si';
 import CsharpIcon from '../assets/csharp.png';
+import DotNetCoreIcon from '../assets/.net.png';
+import PostgresSqlIcon from '../assets/postgres.png';
+
 import './Skills.css'; // Add your styles here
 
 export const Skills = () => {
@@ -20,10 +23,28 @@ export const Skills = () => {
       id: 5,
       name: 'C#',
       icon: <img src={CsharpIcon} alt="C# Logo" style={{ width: '50px' }} />,
-    }, // Changed from SiCsharp to FaCode
-    { id: 6, name: 'Jest', icon: <SiJest color="#C21325" /> },
-    { id: 7, name: 'Webpack', icon: <SiWebpack color="#8DD6F9" /> },
-    { id: 8, name: 'Git', icon: <FaGitAlt color="#F05033" /> },
+    },
+    {
+      id: 6,
+      name: '.Net',
+      icon: (
+        <img src={DotNetCoreIcon} alt=".Net Logo" style={{ width: '50px' }} />
+      ),
+    },
+    {
+      id: 7,
+      name: 'PostgreSQL',
+      icon: (
+        <img
+          src={PostgresSqlIcon}
+          alt="PostgreSQL Logo"
+          style={{ width: '50px' }}
+        />
+      ),
+    }, // Changed from SiCsharp to FaCode // Changed from SiCsharp to FaCode // Changed from SiCsharp to FaCode
+    { id: 8, name: 'Jest', icon: <SiJest color="#C21325" /> },
+    { id: 9, name: 'Webpack', icon: <SiWebpack color="#8DD6F9" /> },
+    { id: 10, name: 'Git', icon: <FaGitAlt color="#F05033" /> },
   ];
 
   return (
