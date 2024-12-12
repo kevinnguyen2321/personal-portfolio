@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fa';
 import { SiJest, SiWebpack } from 'react-icons/si';
 import CsharpIcon from '../assets/csharp.png';
-import DotNetCoreIcon from '../assets/.net.png';
+import DotNetCoreIcon from '../assets/net.png';
 import PostgresSqlIcon from '../assets/postgres.png';
 
 import './Skills.css'; // Add your styles here
