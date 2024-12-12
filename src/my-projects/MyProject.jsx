@@ -1,7 +1,7 @@
 import './MyProject.css';
 import ConcertTrack from '../assets/concertTrack.png';
 import CvApp from '../assets/cv-app.png';
-import BattleShip from '../assets/BattleShip.png';
+import BattleShip from '../assets/Battleship.png';
 import WeatherApp from '../assets/Weather-app.png';
 import GithubIcon from '../assets/github.png';
 import LinkIcon from '../assets/link.png';
