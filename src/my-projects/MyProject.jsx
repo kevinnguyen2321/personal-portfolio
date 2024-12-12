@@ -1,5 +1,5 @@
 import './MyProject.css';
-import ConcertTrack from '../assets/ConcertTrack.png';
+import ConcertTrack from '../assets/concertTrack.png';
 import CvApp from '../assets/cv-app.png';
 import BattleShip from '../assets/BattleShip.png';
 import WeatherApp from '../assets/Weather-app.png';
