@@ -50,3 +50,79 @@
   width: 40% !important;
   margin-bottom: 5px;
 }
+
+@media (max-width: 320px) {
+  /* Add your styles for small mobile devices here */
+
+  .contact-wrapper p {
+    font-size: 0.8rem;
+  }
+
+  .linked-icon {
+    width: 50% !important;
+  }
+
+  .github-icon {
+    width: 50% !important;
+  }
+
+  .email-icon {
+    display: none;
+  }
+  .email-wrapper p {
+    display: none;
+  }
+}
+
+/* Mobile (321px - 480px) */
+@media (min-width: 321px) and (max-width: 480px) {
+  /* Add your styles for mobile devices here */
+  .contact-wrapper {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .contact-wrapper p {
+    font-size: 0.8rem;
+  }
+
+  .linked-icon {
+    width: 40% !important;
+  }
+
+  .github-icon {
+    width: 40% !important;
+  }
+
+  .email-icon {
+    display: none;
+  }
+  .email-wrapper p {
+    display: none;
+  }
+}
+
+/* Large Mobile / Small Tablets (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .contact-wrapper {
+    width: 108%;
+    margin-left: 0;
+  }
+  .contact-wrapper p {
+    font-size: 0.7rem;
+  }
+
+  .linked-icon {
+    width: 40% !important;
+  }
+
+  .github-icon {
+    width: 40% !important;
+  }
+
+  .email-icon {
+    display: none;
+  }
+  .email-wrapper p {
+    display: none;
+  }
+}

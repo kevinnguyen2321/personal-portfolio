@@ -51,3 +51,142 @@
 .project-card-icons img {
   width: 9%;
 }
+
+@media (max-width: 320px) {
+  /* Add your styles for small mobile devices here */
+
+  .projects-wrapper {
+    flex-direction: column;
+    margin-right: -5px;
+  }
+
+  .project-card {
+    width: 90vw;
+    margin-left: 15px;
+  }
+
+  .project-card-text-wrapper {
+    width: 70%;
+  }
+
+  .project-card-text-wrapper p {
+    font-size: 0.6rem;
+  }
+
+  .project-card-text-wrapper h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-card-icons img {
+    width: 25%;
+  }
+}
+
+/* Mobile (321px - 480px) */
+@media (min-width: 321px) and (max-width: 480px) {
+  /* Add your styles for mobile devices here */
+
+  .projects-wrapper {
+    flex-direction: column;
+    margin-left: 25px;
+  }
+
+  .project-card {
+    width: 95vw;
+    margin-left: -12px;
+  }
+
+  .project-card-text-wrapper {
+    width: 70%;
+  }
+
+  .project-card-text-wrapper p {
+    font-size: 0.7rem;
+  }
+
+  .project-card-text-wrapper h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-card-icons img {
+    width: 20%;
+  }
+}
+
+/* Large Mobile / Small Tablets (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .projects-wrapper {
+    flex-direction: column;
+    margin-left: 25px;
+  }
+
+  .project-card {
+    width: 100vw;
+    margin-left: 0px;
+  }
+
+  .project-card-text-wrapper {
+    width: 70%;
+  }
+
+  .project-card-text-wrapper p {
+    font-size: 0.8rem;
+  }
+
+  .project-card-text-wrapper h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-card-icons img {
+    width: 15%;
+  }
+}
+
+/* Tablets (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Add your styles for tablet devices here */
+  .projects-wrapper {
+    flex-direction: column;
+    margin-left: 25px;
+  }
+
+  .project-card {
+    width: 90vw;
+    margin-left: 12px;
+  }
+
+  .project-card-text-wrapper {
+    width: 70%;
+  }
+
+  .project-card-text-wrapper p {
+    font-size: 0.8rem;
+  }
+
+  .project-card-text-wrapper h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-card-icons img {
+    width: 10%;
+  }
+}
+
+/* Laptops (1025px - 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  /* Add your styles for laptop devices here */
+  .projects-wrapper {
+    margin-right: 12px;
+  }
+  .project-card {
+    width: 45%;
+  }
+
+  .project-card-text-wrapper {
+    font-size: 0.8rem;
+  }
+
+  .project-card-icons img {
+    width: 15%;
+  }
+}

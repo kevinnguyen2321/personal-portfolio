@@ -39,3 +39,248 @@
   background-color: white;
   color: black;
 }
+
+/* MEDIA QUERIES */
+/* Small Mobile (Up to 320px) */
+@media (max-width: 320px) {
+  /* Add your styles for small mobile devices here */
+  .about-me-wrapper {
+    /* border: solid yellow; */
+    width: 100vw;
+    margin-left: 15px;
+  }
+
+  .about-me-content-wrapper {
+    /* border: solid rebeccapurple; */
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .image-wrapper {
+    /* border: solid black; */
+    margin: 0;
+    width: 100%;
+  }
+
+  .name-overlay {
+    bottom: 5px;
+  }
+
+  .about-me-content-wrapper img {
+    width: 90vw; /* Full width of the viewport */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Remove rounded corners */
+  }
+
+  .about-me-text-wrapper {
+    /* border: solid brown; */
+    width: 80%;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 45px;
+    font-size: 0.7rem;
+  }
+}
+
+/* Mobile (321px - 480px) */
+@media (min-width: 321px) and (max-width: 480px) {
+  /* Add your styles for mobile devices here */
+
+  .about-me-wrapper {
+    /* border: solid yellow; */
+    width: 100vw;
+    margin-left: 0px;
+  }
+
+  .about-me-content-wrapper {
+    /* border: solid rebeccapurple; */
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .image-wrapper {
+    /* border: solid black; */
+    margin: 0;
+    width: 100%;
+  }
+
+  .name-overlay {
+    bottom: 5px;
+  }
+
+  .about-me-content-wrapper img {
+    width: 90vw; /* Full width of the viewport */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Remove rounded corners */
+    margin-left: 15px;
+  }
+
+  .about-me-text-wrapper {
+    /* border: solid brown; */
+    width: 80%;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 0.7rem;
+  }
+}
+
+/* Large Mobile / Small Tablets (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Add your styles for large mobile or small tablet devices here */
+  .about-me-wrapper {
+    /* border: solid yellow; */
+    width: 100vw;
+    margin-left: 40px;
+  }
+
+  .about-me-content-wrapper {
+    /* border: solid rebeccapurple; */
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .image-wrapper {
+    /* border: solid black; */
+    margin: 0;
+    width: 100%;
+  }
+
+  .name-overlay {
+    bottom: 8px;
+    left: 150px;
+  }
+
+  .about-me-content-wrapper img {
+    width: 90vw; /* Full width of the viewport */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Remove rounded corners */
+    margin-left: 5px;
+  }
+
+  .about-me-text-wrapper {
+    /* border: solid brown; */
+    width: 85%;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 40px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Tablets (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Add your styles for tablet devices here */
+  .about-me-wrapper {
+    /* border: solid yellow; */
+    width: 100vw;
+    margin-left: 40px;
+  }
+
+  .about-me-content-wrapper {
+    /* border: solid rebeccapurple; */
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .image-wrapper {
+    /* border: solid black; */
+    margin: 0;
+    width: 100%;
+  }
+
+  .name-overlay {
+    bottom: 8px;
+    left: 150px;
+  }
+
+  .about-me-content-wrapper img {
+    width: 70vw; /* Full width of the viewport */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Remove rounded corners */
+    margin-left: 80px;
+  }
+
+  .about-me-text-wrapper {
+    /* border: solid brown; */
+    width: 70%;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-right: 55px;
+    font-size: 0.8rem;
+  }
+
+  .about-me-text-wrapper h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Laptops (1025px - 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  /* Add your styles for laptop devices here */
+  .about-me-wrapper {
+    width: 100vw;
+    margin-left: 40px;
+    align-items: center;
+  }
+
+  .about-me-content-wrapper {
+    align-items: center;
+    width: 90vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .image-wrapper {
+    /* border: solid black; */
+    margin: 0;
+    width: 100%;
+  }
+
+  .name-overlay {
+    bottom: 8px;
+    left: 150px;
+  }
+
+  .about-me-content-wrapper img {
+    width: 50vw; /* Full width of the viewport */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Remove rounded corners */
+    margin-left: 0px;
+    margin-bottom: 90px;
+  }
+
+  .about-me-text-wrapper {
+    border: solid brown;
+    width: 95%;
+    margin-left: 0px;
+    margin-top: 100px;
+    margin-right: 55px;
+    font-size: 0.8rem;
+  }
+
+  .about-me-text-wrapper h2 {
+    font-size: 1.5rem;
+  }
+
+  .name-overlay {
+    bottom: 100px;
+  }
+}
